@@ -70,6 +70,14 @@ h2 {
     margin-bottom: 1.5rem;
 }
 
+/* Game library cards */
+
+#new-games .card,
+#fav-games .card {
+    border: none;
+}
+
+
 /* grid visualisation CSS for testing */
 
 /* .container,
@@ -100,7 +108,7 @@ h2 {
     }
 }
 
-/* XL devices (large desktops, 1200px and up) */
+/* xl devices (large desktops, 1200px and up) */
 @media screen and (min-width: 1200px) {
     /* make all service cards the same height for consistency */
     #services .card-body {
@@ -108,7 +116,7 @@ h2 {
     }
 }
 
-/* XXL devices (larger desktops, 1400px and up) */
+/* xxl devices (larger desktops, 1400px and up) */
 @media screen and (min-width: 1400px) {
     /* make all service cards the same height for consistency */
     #services .card-body {
